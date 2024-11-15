@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/main.css">
+  <title>Contact Me | UI/UX Designer & Photographer</title>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <img src="img/logo2.png" alt="My Portfolio" id="logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html" class="current">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section A: Contact Form-->
+  <section id="contact-a" class="py-3 text-center">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Here is how you can reach me.</p>
+      <form name="contact" method="POST" data-netlify="true"  data-netlify-recaptcha="true">
+        <div class="text-fields">
+          <input type="text" class="text-input name-input" placeholder=" Name" name="name">
+          <input type="text" class="text-input subject-input" placeholder=" Subject" name="subject">
+          <input type="email" class="text-input email-input" placeholder=" Email Address" name="email">
+          <input type="text" class="text-input Phone-input" placeholder=" Phone Number" name="phone">
+          <textarea class="text-input message-input" placeholder=" Enter Message" name="message"></textarea>
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn-dark">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Section B: Contact -->
+  <section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+      <div class="contact-details">
+        <div>
+          <i class="fas fa-envelope fa-2x"></i>
+          <h3>Email</h3>
+          <p>obiozosandra@icloud2020.com</p>
+        </div>
+        <div>
+          <i class="fas fa-phone fa-2x"></i>
+          <h3>Phone</h3>
+          <p>+234 708 742 5756</p>
+        </div>
+        <div>
+          <i class="fas fa-address-card fa-2x"></i>
+          <h3>Address</h3>
+          <p>Ikeja City Mall, Ikeja.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section c: Social Media -->
+  <section id="contact-c" class="bg-light py-3">
+    <div class="container">
+      <div>
+        <H2 class="section-title text-center">Let's Connect....</H2>
+        <div class="bottom-line"></div>
+        <ul class="socials">
+          <li><a href="https://www.instagram.com/sandra.cyril_?igsh=MzRlODBiNWFlZA==" target="_blank"><i class="fab fa-instagram fa-4x social-icon"></i><br>
+          <p class="lead">Instagram</p></a></li>
+          <li><a href="https://wa.me/+2347087425756" target="_blank"><i class="fab fa-whatsapp fa-4x"></i><br>
+          <p class="lead">WhatsApp</p></a></li>
+          <li><a href="https://www.tiktok.com/@sandra.cyril_?_t=8rLQrE1KgJ6&_r=1" target="_blank"><i class="fab fa-tiktok fa-4x social-icon"></i><br>
+          <p class="lead">TikTok</p></a></li>
+          <li><a href="https://www.x.com" target="_blank"><i class="fab fa-twitter fa-4x social-icon"></i><br>
+          <p class="lead">Twitter</p></a></li>
+          <li><a href="https://www.telegram.com" target="_blank"><i class="fab fa-telegram fa-4x social-icon"></i><br>
+          <p class="lead">Telegram</p></a></li>
+          <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-4x social-icon"></i><br>
+          <p class="lead">LinkedIn</p></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section C:Tagline -->
+   <section id="contact-d" class="py-4">
+    <div class="container">
+      <h1>Let's Start Your Next project... <i class="fas fa-briefcase"></i></h1>
+    </div>
+   </section>
+    
+  <!-- footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2024. OAKS Studios. All Rights Reserved.</p>
+      <div class="social">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-telegram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

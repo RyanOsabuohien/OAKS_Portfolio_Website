@@ -1,0 +1,206 @@
+// Tablets and Smaller
+@media (max-width:800px) {
+
+  .lead {
+    font-size: 1.3rem;
+  }
+  #header-home {
+    height: 30rem;
+
+    .header-content {
+      padding-top: 4rem;
+
+      h1 {
+        font-size: 3.3rem;
+      }
+    }
+  }
+
+  #contact-c .socials {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.2rem;
+    padding: 0;
+  }
+}
+
+// smartphones
+@media (max-width:550px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+
+    li {
+      padding: 1rem;
+    }
+  }
+
+  #header {
+    &-home {
+      height: 10rem;
+      background-position: 20% 30%;
+      border-bottom: 3px solid $main-color;
+
+      .header-content {
+      display: none;
+      }
+    }
+    &-inner {
+      height: 10rem;
+    }
+  }
+  
+  // Stack Grid colums
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-details,
+  .items {
+    grid-template-columns: 1fr;
+  }
+
+  // Home
+  #home {
+    &-a {
+      .specials div {
+        border-bottom: 1px solid $light-color;
+        padding-bottom: 1rem;
+
+        &:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    &-b {
+      .stats div {
+        padding: 2rem 0 1rem 0;
+      }
+    }
+  }
+
+  // About
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'bio'
+        'aw1'
+        'aw2'
+        'aw3';
+      }
+
+      .bio-image {
+        height: 300px;
+        width: 300px;
+        margin: auto;
+      }
+    }
+
+    &-c {
+      display: none;
+    }
+
+    &-d {
+      .testimonials div {
+        background: $light-color;
+        border: 1px solid $medium-color;
+        border-radius: 5px;
+        padding: 0.5rem;
+
+        p {
+          border: none;
+          padding: 0;
+        }
+      }
+    }
+  }
+  // Contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas: 
+        'name'
+        'subject'
+        'email'
+        'phone'
+        'message';
+      }
+    }
+
+    &-b {
+      div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #555;
+
+        &:last-child {
+          margin-bottom: 0;
+          padding-bottom: 0;
+          border-bottom: 0;
+        }
+      }
+    }
+
+    &-c {
+      .socials {
+        grid-template-columns: repeat(3, 1fr);
+
+        .fab {
+          font-size: 2rem;
+          height: 10px;
+          width: 10px;
+          line-height:10px;
+          padding: 1rem;
+
+          &:hover {
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+
+    &-d {
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+  }
+
+  // footer
+  #main-footer {
+    height: 7rem;
+
+    .footer-content {
+      flex-direction: column;
+      height: 5rem;
+      padding: 1rem;
+
+      .social .fab {
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+      }
+    }
+  }
+}
+
+// Landscape
+@media(max-height:580px) {
+  #header-home {
+    .header-content {
+      padding-top: 2rem;
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
