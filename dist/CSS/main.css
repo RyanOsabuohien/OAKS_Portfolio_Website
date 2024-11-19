@@ -16,7 +16,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #2c71c0;
+  background-color: #00ffb3;
 }
 .btn-light {
   color: #333;
@@ -30,11 +30,11 @@
 button[class^=btn-]:hover,
 a[class^=btn-]:hover,
 input[class^=btn-]:hover {
-  background-color: #2c71c0;
+  background-color: #00ffb3;
 }
 
 .bg-main {
-  background: #2c71c0;
+  background: #00ffb3;
   color: #fff;
 }
 .bg-light {
@@ -98,7 +98,7 @@ input[class^=btn-]:hover {
 .bottom-line {
   height: 2px;
   width: 4rem;
-  background: #2c71c0;
+  background: #00ffb3;
   display: block;
   text-align: center;
   margin: 0 auto 1rem auto;
@@ -112,7 +112,7 @@ input[class^=btn-]:hover {
 
 .item {
   position: relative;
-  background: #2c71c0;
+  background: #00ffb3;
   overflow: hidden;
 }
 .item::after {
@@ -249,7 +249,7 @@ img {
   border-color: #ccc;
 }
 #main-nav a.current {
-  border-color: #2c71c0;
+  border-color: #00ffb3;
 }
 
 #header-home {
@@ -268,7 +268,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 30% 30%/cover;
   height: 5rem;
-  border-bottom: 3px solid #2c71c0;
+  border-bottom: 3px solid #00ffb3;
 }
 
 #home-a .specials {
@@ -278,7 +278,7 @@ img {
   grid-gap: 1.3rem;
 }
 #home-a .specials .fas {
-  color: #2c71c0;
+  color: #00ffb3;
   padding-bottom: 0.4rem;
 }
 #home-b .stats {
@@ -323,7 +323,7 @@ img {
   transition: all 1s;
 }
 #home-c .process-icon:hover {
-  background: #2c71c0;
+  background: #00ffb3;
   color: #fff;
   height: 90px;
   width: 90px;
@@ -337,7 +337,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  background: #2c71c0;
+  background: #00ffb3;
   color: #fff;
   border-radius: 50%;
   font-size: 28px;
@@ -358,7 +358,7 @@ img {
 }
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #2c71c0;
+  border-left: 3px solid #00ffb3;
   padding: 1rem;
 }
 #about-a .award-1 {
@@ -371,7 +371,7 @@ img {
   grid-area: aw3;
 }
 #about-a .fas {
-  color: #2c71c0;
+  color: #00ffb3;
   margin: 1rem;
 }
 #about-b .progress {
@@ -385,7 +385,7 @@ img {
   height: 100%;
   color: #fff;
   text-align: center;
-  background: #2c71c0;
+  background: #00ffb3;
 }
 #about-c .about-logos {
   display: grid;
@@ -521,7 +521,7 @@ img {
   transition: all 0.4s;
 }
 #main-footer .footer-content .social .fab:hover {
-  background: #2c71c0;
+  background: #00ffb3;
 }
 
 @media (max-width: 800px) {
@@ -555,7 +555,7 @@ img {
   #header-home {
     height: 10rem;
     background-position: 20% 30%;
-    border-bottom: 3px solid #2c71c0;
+    border-bottom: 3px solid #00ffb3;
   }
   #header-home .header-content {
     display: none;
